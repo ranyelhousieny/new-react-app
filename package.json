@@ -1,0 +1,27 @@
+{
+  "name": "new-react-app",
+  "version": "1.0.0",
+  "description": "A New React App Without CRA",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyelhousieny/new-react-app.git"
+  },
+  "keywords": [
+    "microfrontends",
+    "react",
+    "webpack"
+  ],
+  "author": "Rany ElHousieny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranyelhousieny/new-react-app/issues"
+  },
+  "homepage": "https://github.com/ranyelhousieny/new-react-app#readme",
+  "dependencies": {
+    "webpack": "^5.51.1"
+  }
+}
