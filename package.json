@@ -4,7 +4,7 @@
   "description": "A New React App Without CRA",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
