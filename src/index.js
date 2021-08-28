@@ -1,1 +1,1 @@
-document.querySelector('#fromjs').innerHTML = `<h1>From index.js</h1>`;
+document.querySelector('#fromjs').innerHTML = 'From index.js without React or Babel';
