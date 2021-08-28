@@ -1,8 +1,10 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 ReactDOM.render(
-  'Hello from index.js',
+  <h1>Hello from js</h1>,
   document.querySelector(
     '#fromjs'
   )
