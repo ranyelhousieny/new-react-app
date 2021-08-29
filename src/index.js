@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/styles.css';
+import './styles/styles.scss';
 
 const user = {
   name: 'Rany ElHousieny',
@@ -15,13 +15,17 @@ function website(site) {
 }
 const template = (
   <div>
+    <h1>
+      Adding Sass to Webpack
+    </h1>
     <h2>
       {' '}
       My Name is {user.name}
     </h2>
     <p>
       Please, visit my profile
-      at {website(user.site)}
+      at{' '}
+      {website(user.profile)}
     </p>
   </div>
 );
