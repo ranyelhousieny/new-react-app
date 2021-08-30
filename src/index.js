@@ -4,25 +4,21 @@ import './styles/styles.css';
 
 const user = {
   name: 'Rany ElHousieny',
-  profile: 'https://rany.tk',
 };
 
-function website(site) {
-  if (site) {
-    return site;
-  }
-  return 'Not Available';
-}
 const template = (
   <div>
     <h2>
       {' '}
       My Name is {user.name}
     </h2>
-    <p>
-      Please, visit my profile
-      at {website(user.site)}
-    </p>
+
+    {user.profile && (
+      <h1>
+        Please, visit my
+        profile {user.profile}
+      </h1>
+    )}
   </div>
 );
 
